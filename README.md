@@ -111,6 +111,24 @@ python etl/run_pipeline.py
 Outputs:
 
 QC summary CSV
-
 QC Excel report with validation results
 
+Documentation
+
+Detailed documentation is available in /docs:
+
+Full project documentation
+
+Beginner-friendly learning guide
+
+Conceptual Informatica mapping design
+
+Intended Next Enhancements
+
+Add claims fact table and referential integrity checks
+
+Extend QC automation with PASS/FAIL thresholds
+
+Add run metrics (rows in/out, runtime)
+
+Optional visualization of QC trends
