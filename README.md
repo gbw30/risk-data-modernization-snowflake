@@ -107,28 +107,26 @@ Validation results are documented and exported as QC reports.
 3. Run:
 
 ```bash
-python etl/run_pipeline.py
-Outputs:
+# python etl/run_pipeline.py
+# Outputs:
 
-QC summary CSV
-QC Excel report with validation results
-
-Documentation
-
+# QC summary CSV
+# QC Excel report with validation results
+```
+## Documentation
 Detailed documentation is available in /docs:
 
-Full project documentation
+- Full project documentation
+- Beginner-friendly learning guide
+- Conceptual Informatica mapping design
 
-Beginner-friendly learning guide
+## Intended Next Enhancements
 
-Conceptual Informatica mapping design
+- Add claims fact table and referential integrity checks
+- Extend QC automation with PASS/FAIL thresholds
+- Add run metrics (rows in/out, runtime)
+- Optional visualization of QC trends
 
-Intended Next Enhancements
+# Resume Summary
 
-Add claims fact table and referential integrity checks
-
-Extend QC automation with PASS/FAIL thresholds
-
-Add run metrics (rows in/out, runtime)
-
-Optional visualization of QC trends
+Designed a Snowflake-based data modernization pipeline using SQL and Python, implementing STAGE-to-CORE transformations, automated data validation, and QC reporting. Produced Informatica-equivalent ETL design artifacts to demonstrate enterprise integration patterns under regional service constraints.
