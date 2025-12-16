@@ -127,6 +127,6 @@ Detailed documentation is available in /docs:
 - Add run metrics (rows in/out, runtime)
 - Optional visualization of QC trends
 
-# Resume Summary
+## Resume Summary
 
 Designed a Snowflake-based data modernization pipeline using SQL and Python, implementing STAGE-to-CORE transformations, automated data validation, and QC reporting. Produced Informatica-equivalent ETL design artifacts to demonstrate enterprise integration patterns under regional service constraints.
